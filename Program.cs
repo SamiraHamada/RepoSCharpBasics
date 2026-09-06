@@ -37,6 +37,25 @@
                 //int pages="145";  Compile-time error Do not put string in int variable
                 int pages = 145; // Corrected to int 
                 #endregion
+                #region 4th Question
+                //Write code that divides 10 by 0 inside a try block, catches the exception, prints "Cannot divide by zero", and then prints "Done" in a finally block.
+
+                try
+                {
+                    int y = 0;
+                    int X = 10 / y;
+
+                }
+                catch (DivideByZeroException)
+                {
+                    Console.WriteLine("Cannot divide by zero");
+                }
+                finally
+                {
+                    Console.WriteLine("Done");
+                }
+
+                #endregion
 
             }
         }
