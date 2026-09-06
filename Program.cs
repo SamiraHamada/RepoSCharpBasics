@@ -32,6 +32,11 @@
                 Console.WriteLine(book.Title.GetType());
                 Console.WriteLine(book.Pages.GetType());
                 #endregion
+                #region 3rd Question
+                //Look at the line below. Is it a compile-time error, a runtime error, or a logical error? Fix it.
+                //int pages="145";  Compile-time error Do not put string in int variable
+                int pages = 145; // Corrected to int 
+                #endregion
 
             }
         }
