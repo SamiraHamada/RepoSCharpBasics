@@ -102,6 +102,17 @@
                 Console.WriteLine(bookPagesText.GetType());
 
                 #endregion
+                #region 10th Question
+                //Declare int copies = 100;. Box it into an object variable, then unbox it back into a new int variable, and print both.
+
+                int copies = 100;
+                object objCopies = copies; // Boxing
+                Console.WriteLine(copies);
+
+
+                int bookCopies = (int)objCopies; // Unboxing
+                Console.WriteLine(bookCopies);
+                #endregion
 
 
             }
