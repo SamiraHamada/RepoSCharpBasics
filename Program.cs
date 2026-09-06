@@ -95,7 +95,13 @@
                     Console.WriteLine("Invalid number");
                 }
                 #endregion
+                #region 9th Question
+                //Given int bookpages = 464;, convert it into a string using ToString() and print its type using GetType() to prove it's now a string.
+                int bookPages = 464;
+                string bookPagesText = bookPages.ToString();
+                Console.WriteLine(bookPagesText.GetType());
 
+                #endregion
 
 
             }
