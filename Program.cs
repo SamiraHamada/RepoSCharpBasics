@@ -56,6 +56,13 @@
                 }
 
                 #endregion
+                #region 5th Question
+                //Declare an int page = 300; then store it in a double variable without using a cast.
+                int page = 300;
+                double A = page;
+                Console.WriteLine(A);
+                #endregion
+
 
             }
         }
